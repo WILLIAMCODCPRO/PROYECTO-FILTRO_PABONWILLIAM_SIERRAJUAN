@@ -1,3 +1,22 @@
+
 body{
-    background-color: black;
+    background-color:black;
+    margin: 0;
+}
+
+.camarografos {
+    width: 120rem;
+    height: 67.5rem;
+}
+
+#fondoCam {
+    width: 120em;
+    height: 67.5em;
+}
+
+#logo {
+    position: relative;
+    bottom: 40.5em;
+    left: 54em;
+    width: 13em;
 }
