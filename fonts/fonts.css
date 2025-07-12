@@ -4,16 +4,6 @@
 }
 
 @font-face {
-    font-family: "myriadProBold";
-    src: url("./MYRIADPRO-BOLD.OTF");
-}
-
-@font-face {
-    font-family: "myriadProSemiBold";
-    src: url("./MYRIADPRO-SEMIBOLD.OTF");
-}
-
-@font-face {
     font-family: "myriadProLight";
     src: url("./MyriadPro-Light.otf");
 }
