@@ -23,16 +23,96 @@ body {
 }
 
 #logoWelcome {
+    margin-top: 10px;
     width: 4rem;
 }
 
 .containerWelcome {
-
+    gap: 2vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: white;
-    width: 60vw;
-    height: 70vh;
+    width: 50vw;
+    height: auto;
+    border-radius: 2rem;
+    padding: 1vw;
 }
+
+.userWelcome {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.textUser {
+    display: flex;
+    padding-left: 1vw;
+}
+
+.textContrasena {
+    display: flex;
+    width: 100%;
+    padding-left: 1vw;
+}
+
+.cajaUser {
+    width: 100%;
+    padding: 0.6vw;
+    border-radius: 2vw;
+    border: 1px solid gray;
+}
+
+
+.cajaContrasena {
+    
+    width: 100%;
+    padding: 0.6vw;
+    border-radius: 2vw;
+    border: 1px solid gray;
+}
+
+
+.containerUser {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+
+.containerContrasena {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+
+.subtituloWelcome {
+    font-size: 1.05vw;
+}
+
+
+.footerWelcome {
+    margin: 0vw;
+    width: 100%;
+    margin-left: 16.5vw;
+    font-size: 0.8vw;
+    margin-bottom: 3vw;
+}
+
+.ingresarPanel {
+    border-radius: 2rem;
+    text-align: center;
+    margin: 1.2vw;
+    background-color: #FF6A2C;
+    width: 14vw;
+    padding: 0.7vw;
+    color: white;
+}
+
+.tituloWelcome {
+    text-align: center;
+}
+
