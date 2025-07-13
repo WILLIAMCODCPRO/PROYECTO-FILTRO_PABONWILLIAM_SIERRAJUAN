@@ -65,3 +65,30 @@ header{
 .fotoDePerfil{
     width: 35%;
 }
+
+.contenedorAyuda {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  text-align: center;
+  background-color: #fff5f0;
+  padding: 2rem;
+  border: 2px solid #FF6F2C; 
+  border-radius: 20px;
+  width: 65vw;
+  height: 25vw;
+  margin: auto;
+}
+
+.contenedorAyuda img {
+  width: 50%;
+  height: 50%;
+  margin-top: 3rem;
+
+}
+
+.contenedorAyuda p {
+  font-family: "myriadProRegular";
+  margin-bottom: 1rem;
+}
+
