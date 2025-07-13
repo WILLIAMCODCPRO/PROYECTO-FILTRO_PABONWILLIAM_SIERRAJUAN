@@ -197,7 +197,7 @@ header{
     height: 5vh;
     border: 1px solid #FF6F2C;
     background-color: #FF6F2C;
-    margin-top: 2vh;
+    margin-top: 1vh;
     align-items: center;
     justify-content: center;
     margin-left: 43vw;
@@ -205,6 +205,12 @@ header{
     font-family: "myriadProRegular";
 }
 
-.hamburguesas{
-    display: flex;
+.hamburguesas {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 30px;  
+  gap: 43px;            
+  top: 14rem;           
+  right: 3rem;         
 }
