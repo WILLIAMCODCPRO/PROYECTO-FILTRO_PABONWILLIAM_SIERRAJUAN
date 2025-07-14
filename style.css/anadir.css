@@ -63,7 +63,7 @@ header{
 }
 
 .fotoDePerfil{
-    width: 35%;
+    width: 80%;
 }
 
 form {
@@ -123,4 +123,35 @@ form button{
     display: flex;
     margin-top: 10vh;
     margin-left: 12rem;
+}
+
+header a{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "myriadProRegular";
+    text-decoration: none;
+    color: black;
+}
+
+.menuPerfil {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.menuPerfil a {
+    color: black;
+    text-decoration: none;
+    font-family: "myriadProRegular";
+}
+
+   
+ 
+
+.contenedorPerfil:hover .menuPerfil {
+    display: block;
 }
