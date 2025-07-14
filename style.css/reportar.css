@@ -65,3 +65,54 @@ header{
 .fotoDePerfil{
     width: 35%;
 }
+
+form{
+  text-align: center;
+  background-color: #fff5f0;
+  padding: 2rem;
+  border: 2px solid #FF6F2C; 
+  border-radius: 20px;
+  width: 25vw;
+  height: 24vw;
+  margin: auto;
+  font-family: "myriadProRegular";
+  margin-top: 5vh;
+}
+
+form input{
+    background-color: #fff1e9;
+    border: 2px solid #ff914d;
+    width: 15vw;
+}
+
+form textarea{
+  width: 25vw;
+  height: 4vw;
+  background-color: #fff1e9;
+  border: 2px solid #ff914d;
+
+
+}
+
+form button{
+    justify-content: center;
+    background-color: #FF6F2C;
+    border: 1px solid #FF6F2C;
+    border-radius: 20px;
+    width: 15vw;
+    height: 5vh;
+    color: white;
+    font-family: "myriadProLight";
+   
+   
+    
+   
+}
+
+
+form select{
+    background-color: #fff1e9;
+    border: 2px solid #ff914d;
+    width: 15vw;
+    
+}
