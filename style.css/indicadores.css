@@ -63,7 +63,7 @@ header{
 }
 
 .fotoDePerfil{
-    width: 35%;
+    width: 80%;
 }
 
 .indicadores div:not(.progreso1,  .indicaciones, .progreso2, .progreso3, .progreso4, .progreso5, .progreso6){
@@ -213,4 +213,26 @@ header{
   gap: 43px;            
   top: 14rem;           
   right: 3rem;         
+}
+
+.menuPerfil {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.menuPerfil a {
+    color: black;
+    text-decoration: none;
+    font-family: "myriadProRegular";
+}
+
+   
+ 
+
+.contenedorPerfil:hover .menuPerfil {
+    display: block;
 }
