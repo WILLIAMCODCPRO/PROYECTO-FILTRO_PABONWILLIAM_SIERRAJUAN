@@ -32,6 +32,151 @@
     }
 }
 
+
+/*iphone 14*/
+@media (max-width: 426px) and (max-height: 932px) 
+{
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            background-image: url(../img/imagenCamarografos.png);
+            background-repeat: no-repeat;
+            background-size: 3840px;
+        
+    
+    }
+    
+    .containerPadre {
+        display: none;
+    }
+    
+    #logoWelcome {
+        width: 4rem;
+        margin-bottom: 3%;
+    
+    }
+    
+    .texticosWelcome {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1vw;
+    }
+    .containerWelcome {
+        gap: 2vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        width: 72vw;
+        height: 91vw;
+        border-radius: 2rem;
+        padding: 1vw;
+        margin-right: 0vw;
+        margin-bottom: 10rem;
+        padding-top: 5rem;
+        margin-top: 37vw;
+    }
+    
+    
+    .userWelcome {
+        width: 79%;
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+    }
+    
+    .textUser {
+        display: flex;
+        padding-left: 1vw;
+        font-size: 2.5vw;
+    }
+    
+    .textContrasena {
+        display: flex;
+        width: 100%;
+        padding-left: 1vw;
+        font-size: 2.5vw;
+    }
+    
+    .cajaUser {
+        width: 100%;
+        padding: 4%;
+        border-radius: 2vw;
+        border: 1px solid gray;
+        height: 1.5vw;
+    }
+    
+    
+    .cajaContrasena {
+        width: 100%;
+        padding: 4%;
+        border-radius: 2vw;
+        border: 1px solid gray;
+        height: 1.5vw;
+    }
+    
+    
+    .containerUser {
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+    }
+    
+    
+    .containerContrasena {
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+    }
+    
+    
+    .subtituloWelcome {
+        font-size: 1.8vw;
+        width: 100%;
+    }
+    
+    
+    .footerWelcome {
+        margin: 0vw;
+        width: 93%;
+        margin-left: 15vw;
+        font-size: 1.3vw;
+        margin-bottom: 21vw;
+        margin-top: 3vw;
+        margin-left: 14vw;
+    }
+    
+    .ingresarPanel {
+        border-radius: 4rem;
+        text-align: center;
+        margin: 0vw;
+        background-color: #FF6A2C;
+        width: 30vw;
+        font-size: 3vw;
+        padding: 1.5vw;
+        color: white;
+        margin-top: 2vw;
+    }
+    
+    .tituloWelcome {
+        text-align: center;
+        font-size: 1.9vw;
+        line-height: 5vw;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -52,138 +197,14 @@ body {
 
 }
 
-
-@media (max-width: 426px) and (max-height: 932px) 
-{
-    body {
-        background-size: 426px 932px; /* Ajusta la imagen al tamaño exacto */
-    }
-    .containerPadre {
-        display: none;
-    }
-    
-    #logoWelcome {
-        width: 2rem;
-    
-    }
-    
-    .texticosWelcome {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 1vw;
-    }
-    .containerWelcome {
-        gap: 2vw;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-color: white;
-        width: 66vw;
-        height: 80vw;
-        border-radius: 4rem;
-        padding: 1vw;
-        margin-right: 5vw;
-        margin-bottom: 73rem;
-        padding-top: 5rem;
-    }
-    
-    
-    .userWelcome {
-        width: 73%;
-        display: flex;
-        flex-direction: column;
-        gap: 2vw;
-    }
-    
-    .textUser {
-        display: flex;
-        padding-left: 1vw;
-        font-size: 4vw;
-    }
-    
-    .textContrasena {
-        display: flex;
-        width: 100%;
-        padding-left: 1vw;
-        font-size: 4vw;
-    }
-    
-    .cajaUser {
-        width: 100%;
-        padding: 5%;
-        border-radius: 2vw;
-        border: 1px solid gray;
-        height: 2.5vw;
-    }
-    
-    
-    .cajaContrasena {
-    
-        width: 100%;
-        padding: 5%;
-        border-radius: 2vw;
-        border: 1px solid gray;
-        height: 2.5vw;
-    }
-    
-    
-    .containerUser {
-        display: flex;
-        flex-direction: column;
-        gap: 0.2rem;
-    }
-    
-    
-    .containerContrasena {
-        display: flex;
-        flex-direction: column;
-        gap: 0.2rem;
-    }
-    
-    
-    .subtituloWelcome {
-        font-size: 1.5vw;
-        width: 85%;
-    }
-    
-    
-    .footerWelcome {
-        margin: 0vw;
-        width: 100%;
-        margin-left: 15vw;
-        font-size: 1vw;
-        margin-bottom: 15vw;
-        margin-top: 3vw;
-        margin-left: 24vw;
-    }
-    
-    .ingresarPanel {
-        border-radius: 3rem;
-        text-align: center;
-        margin: 1.2vw;
-        background-color: #FF6A2C;
-        width: 28vw;
-        font-size: 3vw;
-        padding: 1.5vw;
-        color: white;
-    }
-    
-    .tituloWelcome {
-        text-align: center;
-        font-size: 1.9vw;
-    }
-}
-
-
+/*iphone*/
 .containerPadre {
     display: none;
 }
 
 #logoWelcome {
-    width: 10rem;
-    margin-top: 24%;
+    width: 4rem;
+    margin-bottom: 3%;
 
 }
 
@@ -194,19 +215,18 @@ body {
     gap: 1vw;
 }
 .containerWelcome {
-        gap: 2vw;
-    display: flex
-;
+    gap: 2vw;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: white;
-    width: 47vw;
-    height: 35vw;
-    border-radius: 4rem;
+    width: 72vw;
+    height: 91vw;
+    border-radius: 2rem;
     padding: 1vw;
-    margin-right: 1vw;
-    margin-bottom: 73rem;
+    margin-right: 0vw;
+    margin-bottom: 10rem;
     padding-top: 5rem;
     margin-top: 37vw;
 }
@@ -216,25 +236,25 @@ body {
     width: 79%;
     display: flex;
     flex-direction: column;
-    gap: 1vw;
+    gap: 2vw;
 }
 
 .textUser {
     display: flex;
     padding-left: 1vw;
-    font-size: 1.5vw;
+    font-size: 2.5vw;
 }
 
 .textContrasena {
     display: flex;
     width: 100%;
     padding-left: 1vw;
-    font-size: 1.5vw;
+    font-size: 2.5vw;
 }
 
 .cajaUser {
     width: 100%;
-    padding: 3%;
+    padding: 4%;
     border-radius: 2vw;
     border: 1px solid gray;
     height: 1.5vw;
@@ -243,7 +263,7 @@ body {
 
 .cajaContrasena {
     width: 100%;
-    padding: 3%;
+    padding: 4%;
     border-radius: 2vw;
     border: 1px solid gray;
     height: 1.5vw;
@@ -265,7 +285,7 @@ body {
 
 
 .subtituloWelcome {
-    font-size: 1vw;
+    font-size: 1.8vw;
     width: 100%;
 }
 
@@ -274,9 +294,9 @@ body {
     margin: 0vw;
     width: 93%;
     margin-left: 15vw;
-    font-size: 0.7vw;
-    margin-bottom: 13vw;
-    margin-top: 0vw;
+    font-size: 1.3vw;
+    margin-bottom: 21vw;
+    margin-top: 3vw;
     margin-left: 14vw;
 }
 
@@ -285,13 +305,15 @@ body {
     text-align: center;
     margin: 0vw;
     background-color: #FF6A2C;
-    width: 23vw;
-    font-size: 2vw;
-    padding: 0.5vw;
+    width: 30vw;
+    font-size: 3vw;
+    padding: 1.5vw;
     color: white;
+    margin-top: 2vw;
 }
 
 .tituloWelcome {
     text-align: center;
-    font-size: 0.9vw;
+    font-size: 1.9vw;
+    line-height: 5vw;
 }
