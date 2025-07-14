@@ -236,3 +236,12 @@ header{
 .contenedorPerfil:hover .menuPerfil {
     display: block;
 }
+
+header a{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "myriadProRegular";
+    text-decoration: none;
+    color: black;
+}
