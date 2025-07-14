@@ -65,7 +65,7 @@ header{
 }
 
 .fotoDePerfil{
-    width: 35%;
+    width: 80%;
 }
 
 .listo{
@@ -83,4 +83,35 @@ form button{
     margin-left: 42vw;
     color: white;
     font-family: "myriadProLight";
+}
+
+header a{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "myriadProRegular";
+    text-decoration: none;
+    color: black;
+}
+
+.menuPerfil {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.menuPerfil a {
+    color: black;
+    text-decoration: none;
+    font-family: "myriadProRegular";
+}
+
+   
+ 
+
+.contenedorPerfil:hover .menuPerfil {
+    display: block;
 }
