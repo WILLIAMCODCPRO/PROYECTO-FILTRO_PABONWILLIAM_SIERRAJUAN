@@ -9,10 +9,12 @@ h2{
     font-family: "myriadProRegular";
 }
 
-.parrafoSuelto{
+p{
     text-align: center;
-    font-family: "myriadProLight";
+    font-family: "myriadProRegular";
 }
+
+
 
 header{
     display: flex;
@@ -64,4 +66,21 @@ header{
 
 .fotoDePerfil{
     width: 35%;
+}
+
+.listo{
+
+    margin-left: 41vw;
+    margin-top: 10vh;
+}
+
+form button{
+    background-color: #FF6F2C;
+    border: 1px solid #FF6F2C;
+    border-radius: 20px;
+    width: 15vw;
+    height: 5vh;
+    margin-left: 42vw;
+    color: white;
+    font-family: "myriadProLight";
 }
