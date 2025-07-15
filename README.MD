@@ -17,6 +17,13 @@ FrontEnd:
 - La página web deberá ser desarrollada con código nativo HTML/CSS
 - Se deben desarrollar las propuestas de los módulos faltantes previo al desarrollo del código HTML/CSS
 
+# Instrucciones de Instalación
+Para descargar esta página, solamente necesitas copiar esta URL: (https://github.com/WILLIAMCODCPRO/PROYECTO-FILTRO_PABONWILLIAM_SIERRAJUAN.git) 
+
+Ahora, desde terminal clona el repositorio en tu pc local.
+
+# Instrucciones de Uso
+Para poder acceder y/o usar nuestra página web, debes abrir VScode en tu computadora, dar clic derecho y oprimir en el boton "open with live server".
 # Tecnologias usadas 
 - HTML: Maquetacion web
 
@@ -25,6 +32,11 @@ FrontEnd:
 - FIGMA: Diseño y maquetacion
 
 # Autores
-William Santiago Pabon Ardila
+- William Santiago Pabon Ardila
 
-Juan Pablo Bareño Sierra
+- Juan Pablo Bareño Sierra
+
+# Medios de contacto
+- williamcodpro@gmail.com
+
+- barenojuan619@gmail.com
