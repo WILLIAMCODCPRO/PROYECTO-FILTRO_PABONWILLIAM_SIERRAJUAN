@@ -1,20 +1,21 @@
-@import url("../fonts/fonts.css");  /* Importar la fuentes  */
+@import url("../fonts/fonts.css");
+/* Importar la fuentes  */
 
-body{
+body {
     margin: 0;
 }
 
-h2{
+h2 {
     text-align: center;
     font-family: "myriadProRegular";
 }
 
-.parrafoSuelto{
+.parrafoSuelto {
     text-align: center;
     font-family: "myriadProLight";
 }
 
-header{
+header {
     display: flex;
     width: 100vw;
     border-bottom: 1px solid black;
@@ -29,64 +30,64 @@ header{
     gap: 1vw;
 }
 
-.refrescar{
+.refrescar {
     display: flex;
     gap: 1vw;
 }
 
-.eliminar{
+.eliminar {
     display: flex;
     gap: 1vw;
 }
 
-.logoPequeno{
+.logoPequeno {
     display: flex;
     gap: 1vw;
 }
 
 
-.reportar{
+.reportar {
     display: flex;
     gap: 1vw;
 }
 
-.ayuda{
+.ayuda {
     display: flex;
     gap: 1vw;
-   
+
 }
 
-.apartadoUsuario{
+.apartadoUsuario {
     display: flex;
     gap: 1vw;
-    
+
 }
 
-.fotoDePerfil{
+.fotoDePerfil {
     width: 80%;
 }
 
-.indicadores div:not(.progreso1,  .indicaciones, .progreso2, .progreso3, .progreso4, .progreso5, .progreso6){
+.indicadores div:not(.progreso1, .indicaciones, .progreso2, .progreso3, .progreso4, .progreso5, .progreso6) {
     border: solid 1px black;
     width: 87vw;
     border-radius: 24px;
     margin-left: 5vw;
     margin-top: 2vh;
     font-family: "myriadProLight";
-    
+
 
 
 }
 
-.indicaciones{
+.indicaciones {
     display: flex;
     justify-content: space-evenly;
     width: 85vw;
     margin-left: 5vw;
     font-family: "myriadProRegular";
-    
-    
-    
+
+
+
 }
 
 
@@ -100,7 +101,7 @@ header{
 
 
 
-.indicador .progreso1{
+.indicador .progreso1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,11 +112,9 @@ header{
     border-right: 6px solid red;
     border-bottom: 6px solid red;
     font-family: "myriadProLight";
-    
-    
 }
 
-.indicador .progreso2{
+.indicador .progreso2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,11 +125,9 @@ header{
     border-right: 6px solid red;
     border-bottom: 6px solid red;
     font-family: "myriadProLight";
-    
-    
 }
 
-.indicador .progreso3{
+.indicador .progreso3 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -141,11 +138,11 @@ header{
     border-right: 6px solid green;
     border-bottom: 6px solid green;
     font-family: "myriadProLight";
-    
-    
+
+
 }
 
-.indicador .progreso4{
+.indicador .progreso4 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -156,11 +153,11 @@ header{
     border-right: 6px solid red;
     border-bottom: 6px solid red;
     font-family: "myriadProLight";
-    
-    
+
+
 }
 
-.indicador .progreso5{
+.indicador .progreso5 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -171,11 +168,11 @@ header{
     border-right: 6px solid green;
     border-bottom: 6px solid green;
     font-family: "myriadProLight";
-    
-    
+
+
 }
 
-.indicador .progreso6{
+.indicador .progreso6 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -186,11 +183,11 @@ header{
     border-right: 6px solid yellow;
     border-bottom: 6px solid yellow;
     font-family: "myriadProLight";
-    
-    
+
+
 }
 
-.anadirElementos{
+.anadirElementos {
     display: flex;
     border-radius: 20px;
     width: 15vw;
@@ -206,13 +203,13 @@ header{
 }
 
 .hamburguesas {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  width: 30px;  
-  gap: 43px;            
-  top: 14rem;           
-  right: 3rem;         
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    gap: 43px;
+    top: 14rem;
+    right: 3rem;
 }
 
 .menuPerfil {
@@ -230,14 +227,14 @@ header{
     font-family: "myriadProRegular";
 }
 
-   
- 
+
+
 
 .contenedorPerfil:hover .menuPerfil {
     display: block;
 }
 
-header a{
+header a {
     display: flex;
     justify-content: space-evenly;
     align-items: center;

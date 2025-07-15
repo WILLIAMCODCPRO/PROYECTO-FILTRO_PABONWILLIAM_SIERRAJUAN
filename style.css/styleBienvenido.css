@@ -300,8 +300,54 @@
 
 /*Aquí animamos:)*/
 
+/*Esta es la animación del recuadro Bienvenido de nuevo*/
 @keyframes aparecerLogin {
-    to {
+    0% {
+        opacity: 1;
+        visibility: visible;
+      }
+      20% {
+        opacity: 1;
+        visibility: visible;
+      }
+      50% {
+        opacity: 1;
+        visibility: visible;
+      }
+      80% {
+        opacity: 1;
+        visibility: visible;
+      }
+      90% {
+        opacity: 1;
+        visibility: visible;
+      }
+      95% {
+        opacity: 1;
+        visibility: visible;
+      }
+      98% {
+        opacity: 1;
+        visibility: visible;
+    }
+      100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@keyframes logoAnimation {
+    0% {
+        opacity: 1;
+        visibility: visible;
+      }
+      10% {
+        opacity: 1;
+      }
+      80% {
+        opacity: 1;
+      }
+      100% {
         opacity: 1;
         visibility: visible;
     }
@@ -327,6 +373,13 @@ body {
     background-size: cover;
 
 
+}
+
+.containerPadre {
+    display: flex;
+    position: absolute;
+    animation: logoAnimation 5s ease forwards;
+    left: 45%;
 }
 
 .divCenter {
@@ -375,15 +428,15 @@ body {
     margin-top: 10rem;
     opacity: 0;
     visibility: hidden;
-    animation: aparecerLogin 0.5s ease forwards;
-    animation-delay: 0.5s;
+    animation: aparecerLogin 3s ease forwards;
 }
 
 /*1366x768*/
 .containerPadre {
     display: flex;
     position: absolute;
-    animation: logoAnimation 3s ease forwards;
+    animation: logoAnimation 1.5s ease forwards;
+    animation-delay: 4s;
     left: 45%;
 }
 
