@@ -352,6 +352,35 @@ body {
 
 }
 
+.divCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.imagenPedro {
+    width: 7rem;
+}
+
+.tituloWelcome {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.footerCenter {
+    font-size: 1.3rem;
+    position: relative;
+    bottom: 1rem;
+}
+
+.userAdmin {
+    position: relative;
+    bottom: 1.5rem;
+    color: gray
+}
 .containerWelcome {
     gap: 2vw;
     display: flex;
@@ -360,7 +389,7 @@ body {
     justify-content: center;
     background-color: white;
     width: 57vw;
-    height: 44vw;
+    height: 34vw;
     border-radius: 3rem;
     padding: 1vw;
     margin-right: 0vw;
@@ -370,7 +399,7 @@ body {
     opacity: 0;
     visibility: hidden;
     animation: aparecerLogin 0.5s ease forwards;
-    animation-delay:2.3s;
+    animation-delay: 2.3s;
 }
 
 /*1366x768*/
@@ -382,104 +411,9 @@ body {
 }
 
 #logoWelcome {
-    width: 5rem;
-    margin-bottom: -3%;
-    margin-top: 5%;
+    width: 6rem;
+    margin-top: 0%;
+    position: relative;
+    top: 2%;
 }
 
-.texticosWelcome {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1vw;
-}
-
-.tituloWelcome {
-    text-align: center;
-    font-size: 1.2vw;
-    line-height: 3vw;
-    margin-top: 1vw;
-}
-
-
-
-
-.userWelcome {
-    width: 67%;
-    display: flex;
-    flex-direction: column;
-    gap: 1.8vw;
-}
-
-.textUser {
-    display: flex;
-    padding-left: 1vw;
-    font-size: 1.8vw;
-}
-
-.textContrasena {
-    display: flex;
-    width: 100%;
-    padding-left: 1vw;
-    font-size: 2vw;
-}
-
-.cajaUser {
-    width: 100%;
-    padding: 4%;
-    border-radius: 1vw;
-    border: 1px solid gray;
-    height: 1.5vw;
-}
-
-
-.cajaContrasena {
-    width: 100%;
-    padding: 4%;
-    border-radius: 1vw;
-    border: 1px solid gray;
-    height: 1.5vw;
-}
-
-
-.containerUser {
-    display: flex;
-    flex-direction: column;
-    gap: 0.2rem;
-}
-
-
-.containerContrasena {
-    display: flex;
-    flex-direction: column;
-    gap: 0.2rem;
-}
-
-
-.subtituloWelcome {
-    font-size: 1.2vw;
-    width: 100%;
-}
-
-
-.footerWelcome {
-    margin: 0vw;
-    width: 100%;
-    margin-left: 15vw;
-    font-size: 0.7vw;
-    margin-bottom: 3vw;
-    margin-top: 0vw;
-    margin-left: 27vw;
-}
-
-.ingresarPanel {
-    border-radius: 4rem;
-    text-align: center;
-    margin: 0vw;
-    background-color: #FF6A2C;
-    width: 21vw;
-    font-size: 2vw;
-    padding: 1vw;
-    color: white;
-    margin-top: 0vw;
-}
