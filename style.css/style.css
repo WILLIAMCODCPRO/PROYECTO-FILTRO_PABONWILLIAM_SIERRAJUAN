@@ -290,6 +290,38 @@
 }
 
 
+/*Aquí animamos:)*/
+@keyframes logoAnimation {
+    0% {
+        opacity: 1;
+        visibility: visible;
+    }
+    20% {
+        opacity: 1;
+        visibility: visible;
+    }
+    50% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    80% {
+        opacity: 1;
+        visibility: visible;
+    }
+    100% {
+       opacity: 0;
+       visibility: hidden;
+    }
+}
+
+
+@keyframes aparecerLogin {
+    to {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -299,6 +331,7 @@
 
 body {
     display: flex;
+    position: relative;
     height: 100vh;
     width: 100vw;
     justify-content: center;
@@ -311,9 +344,33 @@ body {
 
 }
 
+.containerWelcome {
+    gap: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 57vw;
+    height: 44vw;
+    border-radius: 3rem;
+    padding: 1vw;
+    margin-right: 0vw;
+    margin-bottom: 10rem;
+    padding-top: 0rem;
+    margin-top: 10rem;
+    opacity: 0;
+    visibility: hidden;
+    animation: aparecerLogin 0.5s ease forwards;
+    animation-delay:2.3s;
+}
+
 /*1366x768*/
 .containerPadre {
-    display: none;
+    display: flex;
+    position: absolute;
+    animation: logoAnimation 3s ease forwards;
+    left: 45%;
 }
 
 #logoWelcome {
@@ -336,22 +393,7 @@ body {
     margin-top: 1vw;
 }
 
-.containerWelcome {
-    gap: 2vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    width: 57vw;
-    height: 44vw;
-    border-radius: 3rem;
-    padding: 1vw;
-    margin-right: 0vw;
-    margin-bottom: 10rem;
-    padding-top: 0rem;
-    margin-top: 10rem;
-}
+
 
 
 .userWelcome {
