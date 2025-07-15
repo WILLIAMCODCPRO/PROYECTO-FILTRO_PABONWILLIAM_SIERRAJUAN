@@ -299,29 +299,6 @@
 
 
 /*Aquí animamos:)*/
-@keyframes logoAnimation {
-    0% {
-        opacity: 1;
-        visibility: visible;
-    }
-    20% {
-        opacity: 1;
-        visibility: visible;
-    }
-    50% {
-        opacity: 0;
-        visibility: hidden;
-    }
-    80% {
-        opacity: 1;
-        visibility: visible;
-    }
-    100% {
-       opacity: 0;
-       visibility: hidden;
-    }
-}
-
 
 @keyframes aparecerLogin {
     to {
@@ -399,7 +376,7 @@ body {
     opacity: 0;
     visibility: hidden;
     animation: aparecerLogin 0.5s ease forwards;
-    animation-delay: 2.3s;
+    animation-delay: 0.5s;
 }
 
 /*1366x768*/
